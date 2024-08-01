@@ -16,7 +16,7 @@ connectionDB();
 
 const io = new Server(PORT,{
     cors: {
-        origin: "google-docs-clone-olive.vercel.app",
+        origin: "https://google-docs-clone-olive.vercel.app",
         methods: ["GET", "POST"],
        
     }

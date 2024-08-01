@@ -70,7 +70,7 @@ const Editors = () => {
    
 
   useEffect(()=>{
-    const socketServer = io('https://google-docs-clone-14jz.onrender.com');
+    const socketServer = io("https://google-docs-clone-14jz.onrender.com");
     setSocket(socketServer);
 
   return()=>{
